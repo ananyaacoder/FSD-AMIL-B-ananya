@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.body{
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: rgb(64, 130, 64);
+        }
+        .field{
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top:0px;
+            margin-bottom: 20px;
+        }
+        .login{
+            width: 500px;
+            height: 300px;
+            margin:400px;
+            margin-top: 100px;
+            margin-bottom: 0;
+            padding:50px;
+            background-color:rgb(240, 245, 233);
+            opacity: 0.7;
+            text-align: center;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            display: inline-block;
+            padding:100px;
+            border-radius: 20px;
+            font-size: 20px;
+        }
+        .button{
+            border-radius:20px;
+            background-color: rgb(30, 32, 74);
+            color: aliceblue;
+            width: 200px;
+            height: 40px;
+            
+        }
+        .cancel{
+            border-radius:20px;
+            background-color: rgb(191, 68, 92);
+            color:aliceblue;
+            width: 200px;
+            height: 40px;
+        }</style>
+</head>
+<body class="body">
+   <form class="login">
+    <fieldset class="field">LOGIN PAGE</fieldset>
+    <label for="Useremail">Username/Email Id</label>
+        <input type="text" type="email" name="Useremail" id="Useremail" placeholder="Enter your Username/Email Id">
+        <br>
+       <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="xyz123#*@$">
+        <br>
+        <br>
+         <label style="font-size: 15px;"><input type="checkbox" name="rem" id="rem"> Remember me</label>
+         <br>
+         <br>
+        <button class="button" >Login</button>
+        <br>
+        <br>
+        <button class="cancel">Cancel</button>
+
+       
+        <br>
+
+    
+   </form> 
+   <script src="login.js"></script>
+</body>
+</html>
