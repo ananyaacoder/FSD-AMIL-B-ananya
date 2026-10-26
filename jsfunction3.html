@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script type="text/javascript">
+let name=document.Uname.value;
+let Email=document.Email.value;
+let Mobile=document.Number.value;
+function validate()
+{
+    if(typeof name!= string)
+    {
+        alert("Enter your correct name");
+        return false;
+    }
+    if(mobile.length!=10)
+    {
+        alert("Enter your 10 digit number");
+        return false;
+    }
+    atpos=email.indexof("@");
+    atpos=email.lastindexof(".");
+    if(dotpost.atpos<=3)
+    {
+        alert("Enter a valid email id");
+        return false;
+    }
+    return true;
+}
+</script>
+<body>
+    <form name="ragistration" onsubmit="return validate()">
+        <label for="name">YOUR NAME</label>
+        <input type="text" name="uname" >
+        <label for="email">YOUR EMAIL</label>
+        <input type="email" name="email" id="email">
+        <label for="mobileno">YOUR MOBILE NUMBER</label>
+        <input type="number" name="mobileno" id="mobileno">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+             background-image: url(https://img.freepik.com/free-photo/animal-eating-sweet-delicious-cake_23-2151534273.jpg?w=360);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            
+        }
+    </style>
+</head>
+<script type="text/javascript" >
+    // function fn(first)
+    // { let firstname=first;
+    //     return firstname;
+    // }
+    // function ln(last)
+    // {
+    //     let lastname=last;
+    //     return lastname;
+    // }
+    // function display()
+    // {
+    //     let first= fn("Ananya");
+    //     let last= ln("Agarwal");
+    //     document.write (first+" "+last);
+    // }
+
+    function fn()
+    {
+        let first=prompt("Firstname");
+        return first;
+    }
+    function ln()
+    {
+        let last=prompt("Lastname");
+        return last;
+    }
+    function display()
+{
+    let first=fn();
+    let last=ln();
+    document.write(first+" "+last);
+}
+    </script>
+<body>
+    <input type="button" onclick="display()" value="Click click">
+</body>
+</html>

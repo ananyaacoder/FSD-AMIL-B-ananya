@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <script type="text/javascript">
+        // let a= new Array();
+        // let b= new Array();
+        // a[0]=1;
+        // a[1]="Ananya";
+        // a[2]=10.50;
+        // document.write(a.length);
+        // some methods of array:-
+        //1. push()
+        //2. pop()
+        //3. concat()
+        //4. reverse()
+        //5. shift()
+        //6. unshift()
+        //7. splice() (index, element to be deleted, elements to be added)
+        //8. slice()
+        let b=[1, 2, 3, 4, 5];
+        b[5]=6;
+        let a=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        var R= a.push(10);
+        document.write(R);
+        R=a.pop();
+        document.write(R);
+        R= a.concat(b);
+        document.write(R);
+        R=a.reverse();
+        document.write(R);
+        R=a.shift();
+        document.write(R);
+        R=a.unshift();
+        document.write(R);
+        R=a.splice(2,2);
+        document.write(R);
+        // var a=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        R=a.splice(2,0, 3, 4);
+        document.write(R);
+        // var a=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        R=a.splice(4,1,6);
+        document.write(R);
+        
+
+
+    </script>
+    
+</body>
+</html>
